@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>Article preview component</title>
+  </head>
+  <body
+    class="font-manrope bg-Light-Grayish-blue flex justify-center items-center w-[100%] min-h-screen py-8"
+  >
+    <main
+      class="w-[90%] bg-white rounded-3xl overflow-hidden grid items-center max-w-[350px] md:grid-cols-2 md:grid-rows-1 md:max-w-[1080px] md:gap-0"
+    >
+      <object data="" type="" class="self-stretch">
+        <img
+          class="w-[100%] h-[100%] object-cover block"
+          src="images/drawers.jpg"
+          alt=""
+        />
+      </object>
+      <article class="">
+        <div class="p-8 pb-4 space-y-4">
+          <h1
+            class="font-bold text-Very-Dark-Grayish-Blue text-[16px] md:text-[calc(14px+0.5vw)]"
+          >
+            Shift the overall look and feel by adding these wonderful touches to furniture
+            in your home
+          </h1>
+          <p class="text-Very-Dark-Grayish-Blue text-[14px]">
+            Ever been in a room and felt like something was missing? Perhaps it felt
+            slightly bare and uninviting. I’ve got some simple tips to help you make any
+            room feel complete.
+          </p>
+        </div>
+
+        <footer class="">
+          <ul class="flex p-6 items-center justify-start space-x-3">
+            <li class="w-[45px] rounded-full overflow-hidden">
+              <img class="w-[100%]" src="images/avatar-michelle.jpg" alt="" />
+            </li>
+            <li class="grow">
+              <p class="text-Desaturated-Dark-Blue text-[15px] font-bold">
+                Michelle Appleton
+              </p>
+              <p class="text-[13px] text-Grayish-Blue">28 Jun 2020</p>
+            </li>
+            <li>
+              <i
+                class="fa-solid fa-share text-Desaturated-Dark-Blue bg-Light-Grayish-blue p-2 rounded-full cursor-pointer"
+              ></i>
+            </li>
+          </ul>
+
+          <!-- <ul class="relative p-8 items-center justify-start space-x-3 md:block">
+            <li
+              class="space-x-2 grow absolute flex gap-2 px-4 py-6 rounded-3xl bg-Desaturated-Dark-Blue -top-16 -right-0"
+            >
+              <p
+                class="font-light uppercase tracking-[4px] text-Grayish-Blue text-[14px]"
+              >
+                Share
+              </p>
+              <a href="https://www.facebook.com" target="_blank"
+                ><i class="fa-brands fa-facebook text-white text-[20px]"></i
+              ></a>
+              <a href="https://www.twitter.com" target="_blank"
+                ><i class="fa-brands fa-twitter text-white text-[20px]"></i
+              ></a>
+              <a href="https://www.pinterest.com" target="_blank"
+                ><i class="fa-brands fa-pinterest text-white text-[20px]"></i
+              ></a>
+            </li>
+          </ul> -->
+
+          <!-- <ul
+            class="flex p-8 items-center justify-start space-x-3 bg-Desaturated-Dark-Blue md:hidden"
+          >
+            <li class="font-light uppercase tracking-[4px] text-Grayish-Blue text-[14px]">
+              Share
+            </li>
+            <li class="space-x-2 grow">
+              <a href="https://www.facebook.com" target="_blank"
+                ><i class="fa-brands fa-facebook text-white text-[20px]"></i
+              ></a>
+              <a href="https://www.twitter.com" target="_blank"
+                ><i class="fa-brands fa-twitter text-white text-[20px]"></i
+              ></a>
+              <a href="https://www.pinterest.com" target="_blank"
+                ><i class="fa-brands fa-pinterest text-white text-[20px]"></i
+              ></a>
+            </li>
+            <li>
+              <i
+                class="fa-solid fa-share text-white bg-gray-200 bg-opacity-25 p-2 rounded-full cursor-pointer lg:bg-Very-Dark-Grayish-Blue"
+              ></i>
+            </li>
+          </ul> -->
+        </footer>
+      </article>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
